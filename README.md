@@ -1,5 +1,7 @@
 # Sass Tutorial
 
+Sass stands for "syntactically awesome stylesheets". It adds variables, loops, inheritance and many other extras to CSS.
+
 ## To get started using Sass
 
 1. Windows users will need to download [Ruby](http://rubyinstaller.org/) by clicking on the download link on the page.

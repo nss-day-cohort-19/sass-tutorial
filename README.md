@@ -1,6 +1,6 @@
 # Sass Tutorial
 
-Sass stands for "syntactically awesome stylesheets". It adds variables, loops, inheritance and many other extras to CSS.
+[Sass](http://sass-lang.com/) stands for "syntactically awesome stylesheets". It adds variables, loops, inheritance and many other extras to CSS.
 
 ## To get started using Sass
 

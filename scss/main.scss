@@ -1,3 +1,14 @@
+// Variables are useful for a single argument that is reused more than once.
+$blue: #7575FF;
+$green: #57FF57;
+$red: #FF8767;
+$border: 5px solid $blue;
+$font: "Verdana", "Arial", sans-serif;
+
+
 body {
-  background: green;
+  background: $green;
+  color: $red;
+  border: $border;
+  font-family: $font;
 }

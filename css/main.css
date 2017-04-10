@@ -1,4 +1,7 @@
 body {
-  background: green; }
+  background: #57FF57;
+  color: #FF8767;
+  border: 5px solid #7575FF;
+  font-family: "Verdana", "Arial", sans-serif; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,6 +1,6 @@
 # Sass Tutorial
 
-Sass is a CSS extension that compiles to CSS. It adds variables, loops, inheritance and many other extras to CSS.
+[Sass](http://sass-lang.com/) is a CSS extension that compiles to CSS. It adds variables, loops, inheritance and many other extras to CSS.
 
 ## To get started using Sass
 

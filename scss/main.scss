@@ -5,10 +5,10 @@ $red: #FF8767;
 $border: 5px solid $blue;
 $font: "Verdana", "Arial", sans-serif;
 
-
 body {
-  background: $green;
-  color: $red;
   border: $border;
-  font-family: $font;
 }
+
+// Imports keep code modularized
+@import 'contact';
+@import 'products';

@@ -1,6 +1,6 @@
 # Sass Tutorial
 
-Sass stands for "syntactically awesome stylesheets". It adds variables, loops, inheritance and many other extras to CSS.
+Sass is a CSS extension that compiles to CSS. It adds variables, loops, inheritance and many other extras to CSS.
 
 ## To get started using Sass
 
@@ -10,4 +10,4 @@ Sass stands for "syntactically awesome stylesheets". It adds variables, loops, i
 
 3. Linux users run `sudo su -c "gem install sass"`.
 
-3. Sublime users need to install Sass from Sublime Packages, since Sublime does not automatically have syntax highlighting.
+3. To have syntax highlighting in Sublime, users need to install Sass from Sublime Packages, since Sublime does not automatically have highlighting for Sass.

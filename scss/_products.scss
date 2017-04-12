@@ -1,0 +1,16 @@
+.products {
+  @include flex;
+  flex-wrap: wrap;
+  h2 {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+.card {
+  @include flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  width: 40%;
+  padding: 0 1em;
+}

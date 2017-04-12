@@ -1,13 +1,14 @@
-// Nesting makes code easier to write
+// Nesting makes code easier to write, just don't go more than four levels deep
 .navbar {
   background-color: $primary;
-  display: flex;
+  // to use a mixin @include infront of the mixin name
+  @include flex;
   align-items: center;
   h1 {
     font-family: $font;
     color: $secondary;
     margin-right: auto;
-    padding: 0 1em
+    padding: 0 1em;
   }
   li {
     padding: 1em;

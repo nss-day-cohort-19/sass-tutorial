@@ -10,6 +10,7 @@ li {
 .navbar {
   background-color: #454955;
   display: flex;
+  justify-content: center;
   align-items: center; }
   .navbar h1 {
     font-family: "Arial", sans-serif;
@@ -23,5 +24,21 @@ li {
       color: #72B01D; }
       .navbar li a:hover {
         color: #F3EFF5; }
+
+.products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+  .products h2 {
+    text-align: center;
+    width: 100%; }
+
+.card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: baseline;
+  width: 40%;
+  padding: 0 1em; }
 
 /*# sourceMappingURL=main.css.map */

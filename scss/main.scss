@@ -7,7 +7,11 @@ $white: #F3EFF5;
 $border: 5px solid $tertiary;
 $font: "Arial", sans-serif;
 
-
+// mixins are for longer chunks of code that will be reused
+@mixin flex {
+  display: flex;
+  justify-content: center;
+}
 
 body {
   margin: 0;

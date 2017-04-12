@@ -1,7 +1,27 @@
 body {
-  border: 5px solid #7575FF; }
+  margin: 0;
+  padding: 0;
+  background-color: #F3EFF5;
+  font-family: "Arial", sans-serif; }
 
-.contact {
-  background: #FF8767; }
+li {
+  list-style: none; }
+
+.navbar {
+  background-color: #454955;
+  display: flex;
+  align-items: center; }
+  .navbar h1 {
+    font-family: "Arial", sans-serif;
+    color: #3F7D20;
+    margin-right: auto;
+    padding: 0 1em; }
+  .navbar li {
+    padding: 1em; }
+    .navbar li a {
+      text-decoration: none;
+      color: #72B01D; }
+      .navbar li a:hover {
+        color: #F3EFF5; }
 
 /*# sourceMappingURL=main.css.map */

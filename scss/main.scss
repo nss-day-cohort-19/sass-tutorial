@@ -1,14 +1,26 @@
 // Variables are useful for a single argument that is reused more than once.
-$blue: #7575FF;
-$green: #57FF57;
-$red: #FF8767;
-$border: 5px solid $blue;
-$font: "Verdana", "Arial", sans-serif;
+$primary: #454955;
+$secondary: #3F7D20;
+$tertiary: #72B01D;
+$black: #0D0A0B;
+$white: #F3EFF5;
+$border: 5px solid $tertiary;
+$font: "Arial", sans-serif;
+
+
 
 body {
-  border: $border;
+  margin: 0;
+  padding: 0;
+  background-color: $white;
+  font-family: $font;
+}
+
+li {
+  list-style: none;
 }
 
 // Imports keep code modularized
+@import 'navbar';
 @import 'contact';
 @import 'products';

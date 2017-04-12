@@ -1,0 +1,22 @@
+// Nesting makes code easier to write
+.navbar {
+  background-color: $primary;
+  display: flex;
+  align-items: center;
+  h1 {
+    font-family: $font;
+    color: $secondary;
+    margin-right: auto;
+    padding: 0 1em
+  }
+  li {
+    padding: 1em;
+    a {
+      text-decoration: none;
+      color: $tertiary;
+      &:hover {
+        color: $white;
+      }
+    }
+  }
+}

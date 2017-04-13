@@ -1,1 +1,6 @@
-
+// Using @extend copies styles from another element, class or id
+.contact {
+  @extend .products;
+  width: 85%;
+  margin: auto;
+}

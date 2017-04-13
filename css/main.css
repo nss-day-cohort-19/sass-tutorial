@@ -25,11 +25,15 @@ li {
       .navbar li a:hover {
         color: #F3EFF5; }
 
-.products {
+.contact {
+  width: 85%;
+  margin: auto; }
+
+.products, .contact {
   display: flex;
   justify-content: center;
   flex-wrap: wrap; }
-  .products h2 {
+  .products h2, .contact h2 {
     text-align: center;
     width: 100%; }
 

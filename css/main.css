@@ -36,6 +36,10 @@ li {
   .products h2, .contact h2 {
     text-align: center;
     width: 100%; }
+  @media (max-width: 550px) {
+    .products, .contact {
+      flex-direction: column;
+      align-items: center; } }
 
 .card {
   display: flex;
@@ -44,5 +48,9 @@ li {
   align-items: baseline;
   width: 40%;
   padding: 0 1em; }
+  @media (max-width: 550px) {
+    .card {
+      width: 85%;
+      padding: 0; } }
 
 /*# sourceMappingURL=main.css.map */

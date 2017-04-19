@@ -1,0 +1,22 @@
+// Nesting makes code easier to write, just don't go more than four levels deep
+.navbar {
+  background-color: $primary;
+  // to use a mixin @include infront of the mixin name
+  @include flex;
+  align-items: center;
+  h1 {
+    color: $tertiary;
+    margin-right: auto;
+    padding: 0 1em;
+  }
+  li {
+    padding: 1em;
+    a {
+      text-decoration: none;
+      color: $tertiary;
+      &:hover {
+        color: $white;
+      }
+    }
+  }
+}

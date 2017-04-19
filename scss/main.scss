@@ -1,0 +1,29 @@
+// Variables are useful for a single argument that is reused more than once.
+$primary: #454955;
+$secondary: #3F7D20;
+$tertiary: #72B01D;
+$white: #F3EFF5;
+$border: 1px solid $tertiary;
+$font: "Arial", sans-serif;
+
+// mixins are for longer chunks of code that will be reused
+@mixin flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $white;
+  font-family: $font;
+}
+
+li {
+  list-style: none;
+}
+
+// Imports keep code modularized
+@import 'navbar';
+@import 'contact';
+@import 'products';

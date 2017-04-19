@@ -1,0 +1,23 @@
+.products {
+  @include flex;
+  flex-wrap: wrap;
+  margin-bottom: 3em;
+  h2 {
+    text-align: center;
+    width: 100%;
+    color: $secondary;
+    margin: 2em;
+  }
+}
+
+.card {
+  @include flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  width: 40%;
+  padding: 0 1em;
+  border: $border;
+  h3 {
+    color: $secondary;
+  }
+}

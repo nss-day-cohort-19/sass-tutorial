@@ -2,15 +2,14 @@
 $primary: #454955;
 $secondary: #3F7D20;
 $tertiary: #72B01D;
-$black: #0D0A0B;
 $white: #F3EFF5;
-$border: 5px solid $tertiary;
+$border: 1px solid $tertiary;
 $font: "Arial", sans-serif;
 
 // mixins are for longer chunks of code that will be reused
 @mixin flex {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 body {

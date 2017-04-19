@@ -10,11 +10,10 @@ li {
 .navbar {
   background-color: #454955;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center; }
   .navbar h1 {
-    font-family: "Arial", sans-serif;
-    color: #3F7D20;
+    color: #72B01D;
     margin-right: auto;
     padding: 0 1em; }
   .navbar li {
@@ -31,26 +30,24 @@ li {
 
 .products, .contact {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap; }
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 3em; }
   .products h2, .contact h2 {
     text-align: center;
-    width: 100%; }
-  @media (max-width: 550px) {
-    .products, .contact {
-      flex-direction: column;
-      align-items: center; } }
+    width: 100%;
+    color: #3F7D20;
+    margin: 2em; }
 
 .card {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
   align-items: baseline;
   width: 40%;
-  padding: 0 1em; }
-  @media (max-width: 550px) {
-    .card {
-      width: 85%;
-      padding: 0; } }
+  padding: 0 1em;
+  border: 1px solid #72B01D; }
+  .card h3 {
+    color: #3F7D20; }
 
 /*# sourceMappingURL=main.css.map */

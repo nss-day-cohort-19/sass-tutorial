@@ -11,3 +11,5 @@
 3. Linux users run `sudo su -c "gem install sass"`.
 
 3. To have syntax highlighting in Sublime, users need to install Sass from Sublime Packages, since Sublime does not automatically have highlighting for Sass.
+
+4. To run Sass in the terminal `sass --watch scss:css`. Running `sass --help` prints a list of options.
